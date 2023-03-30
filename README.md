@@ -23,3 +23,4 @@ This website is a quiz for javascript which anyone can use to test their knowled
 MIT License
 
 ## Link 
+[Link for deployed website](https://saloni0412.github.io/Javascript-Quiz/)
