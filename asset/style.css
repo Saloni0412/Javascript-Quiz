@@ -1,0 +1,84 @@
+* {
+    background-color: blanchedalmond;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* section for timer and high scores */
+#top{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 25px;
+    color: rgb(16, 1, 80);
+}
+
+/*section for quiz rules and start button */ 
+.page1{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: center;
+    
+}
+.heading{
+    font-size: 55px;
+    padding-bottom: 20px;
+}
+
+#rules {
+    margin: 50px, 0px; 
+    padding-bottom: 20px;
+    color: rgb(16, 1, 80);
+    font-size: 28px;
+}
+
+.start {
+    background-color: rgb(12, 6, 97);
+    width: 150px;
+    height: 60px;
+    font-size: 23px;
+    color: rgb(245, 243, 243);
+    border-radius: 10px;
+}
+
+.start:hover {
+    box-shadow: 5px 5px rgb(115, 96, 148);
+}
+
+/* section for question */
+.questions {
+    padding-left: 20px;
+    font-size: 45px;
+}
+
+/* section for options */
+.container {
+    display: flex;
+    flex-direction: column;
+} 
+
+/* section for form */
+#initials {
+    width: 200px;
+    height: 40px;
+    border: 5px solid darkblue;
+    margin-left: 30px;
+    display:none;
+}
+  
+.buttons {
+    padding: 10px;
+}
+
+.submit {
+    padding: 5px;
+    font-size: 25px;
+    margin-left: 30px;
+    box-shadow: 5px 5px;
+    background-color: cadetblue;
+    display: none;
+}
+
+
